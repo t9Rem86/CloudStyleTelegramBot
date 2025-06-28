@@ -1,9 +1,10 @@
 package main
 
 import (
-	"CloudStyleTelegramBot/methods"
+	"awesomeProject/methods"
 	"context"
 	"fmt"
+	"github.com/jackc/pgx/v5"
 	"github.com/joho/godotenv"
 	"os"
 )
