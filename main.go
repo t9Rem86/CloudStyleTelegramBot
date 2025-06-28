@@ -10,7 +10,7 @@ import (
 )
 
 func main() {
-
+	// Это написал с винды
 	// Загружаем переменные окружения
 	err := godotenv.Load()
 	if err != nil {
