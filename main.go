@@ -1,7 +1,7 @@
 package main
 
 import (
-	"awesomeProject/methods"
+	"CloudStyleTelegramBot/methods"
 	"context"
 	"fmt"
 	"github.com/jackc/pgx/v5"
