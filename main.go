@@ -1,15 +1,15 @@
 package main
 
 import (
-	"awesomeProject/methods"
+	"CloudStyleTelegramBot/methods"
 	"context"
 	"fmt"
-	"github.com/jackc/pgx/v5"
 	"github.com/joho/godotenv"
 	"os"
 )
 
 func main() {
+
 	// Загружаем переменные окружения
 	err := godotenv.Load()
 	if err != nil {
