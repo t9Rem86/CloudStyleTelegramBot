@@ -18,7 +18,7 @@ func main() {
 	}
 
 	// Получаем URL базы данных
-	databaseURL := os.Getenv("DATABASE_URL")
+	databaseURL := os.Getenv("DATABASE_URL1")
 	fmt.Println("DATABASE_URL:", databaseURL)
 
 	// Подключаемся к базе
