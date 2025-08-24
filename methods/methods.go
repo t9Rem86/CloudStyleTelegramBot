@@ -25,7 +25,7 @@ func InsertDebit(conn pgx.Conn, idBalance int, idType int, idModel int, idBrand 
 func InsertCredit(conn pgx.Conn, idBalance int, idType int, idModel int, idBrand int, price float32, count int, delivery float32) error {
 	_, err := conn.Exec(
 		context.Background(),
-		`INSERT INTO debit(id_credit, id_balance, id_type, id_brand, id_model, price, count, date) 
+		`INSERT INTO credit(id_credit, id_balance, id_type, id_brand, id_model, price, count, date) 
 		 VALUES (default, $1, $2, $3, $4, $5, $6, $7)`,
 		idBalance, idType, idBrand, idModel, price, count, time.Now(),
 	)
